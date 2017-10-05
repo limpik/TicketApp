@@ -1,0 +1,77 @@
+﻿@model BestBusWay.Domain.Entities.RouteTime
+@using System.Linq;
+@{
+    ViewBag.Title = "Админ панель: редактирование времени";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<script type="text/javascript">
+    $(function () {
+        //Установим для виджета русскую локаль с помощью параметра language и значения ru
+        $('.picker').datetimepicker(
+            {
+             locale: 'ru'
+            }
+        );
+    });
+</script>
+<div class="container"
+     <div class="row">
+        <div class="col-md-6 col-md-offset-3"
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3>Редактирование времени: ID-@Model.RouteTimeId</h3>
+                </div>
+
+                @using (Html.BeginForm("Edit", "RouteTime", FormMethod.Post))
+                {
+                    <div class="panel-body">
+                        @Html.HiddenFor(m => m.RouteTimeId)
+                         <div class="form-group">
+                            @Html.LabelFor(x => x.TimeDeparture)
+                            <div class='input-group date picker'>
+                                <input type='text' class="form-control" name='TimeDeparture' id='TimeDeparture' />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar">
+                                    </span>
+                                </span>
+                            </div>
+                            @Html.ValidationMessage("TimeDeparture")
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.TimeArrival)
+                            <div class='input-group date picker'>
+                                <input type='text' class="form-control" name='TimeArrival' id='TimeArrival' />
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar">
+                                    </span>
+                                </span>
+                            </div>
+                            @Html.ValidationMessage("TimeArrival")
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Route)
+                            <select id="RouteId" name="RouteId" class="form-control input-lg">
+                                @foreach (var item in ViewBag.Routes as IEnumerable<BestBusWay.Domain.Entities.Route>)
+                                {
+                                    <option value="@item.RouteId">
+                                       @(item.StartStation.StName) - @(item.EndStation.StName)
+                                    </option>
+                                }
+                            </select>
+
+                            @Html.ValidationMessage("Route")
+                        </div>
+
+                    </div> // </Panel body>
+                    <div class="panel-footer">
+                        <input type="submit" value="Сохранить" class="btn btn-primary btn-block btn-lg" />
+                        @Html.ActionLink("Отменить изменения и вернуться к списку", "Index", null, new
+                   {
+                       @class = "btn btn-default btn-block btn-lg"
+                   })
+                    </div>
+                }
+           </div> <!-- </Panel> -->
+        </div>
+    </div>
+</div>

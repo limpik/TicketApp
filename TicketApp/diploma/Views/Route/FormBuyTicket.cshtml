@@ -1,0 +1,124 @@
+﻿@model BestBusWay.Domain.Entities.RouteTime
+
+@{
+    ViewBag.Title = "Доступные маршруты";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .table-into-avroute {
+        margin: 50px 25px;
+        border: 1px solid #DEDEDF;
+        border-radius: 7px;
+        background-color: #ffffff;
+    }
+
+    .buy-ticket {
+        background-color: #FAFAFA;
+        margin-top: 125px;
+        font-family: 'Century Gothic';
+    }
+
+    h3 {
+        font-family: 'Century Gothic';
+        padding: 10px 0 0 0;
+    }
+
+    .navbar-avroutes {
+        background-color: #0A99D2;
+        min-height: 75px;
+    }
+
+    .table-avroutes > thead > tr > th,
+    .table-avroutes > tbody > tr > td {
+        padding: 25px 15px;
+        border-bottom: 1px solid #DEDEDF;
+        text-align: center;
+    }
+
+    .btn-buy-ticket {
+        padding: 12px 10px;
+        font-size: 18px;
+        background-color: #FAFAFA;
+        border: none;
+        box-shadow: 3px 2px 7px #C6C6C6;
+    }
+
+        .btn-buy-ticket:hover {
+            background-color: #ffffff;
+        }
+
+    .hr-line {
+        border-top: 1px solid #8c8b8b;
+        width: 25px;
+        margin: 5px auto;
+    }
+    .descr {
+        font-size: 16px;
+    }
+</style>
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top navbar-avroutes">
+    <div class="container-fluid">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<div class="container-fluid buy-ticket">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h3 style="text-align: center;">
+                Покупка билета
+            </h3>
+            <div class="table-into-avroute">
+                <table class="table table-hover table-avroutes">
+                    <tbody>
+                        <tr>
+                            <td>
+                                @Model.Route.StartStation.City.CityName (@Model.Route.StartStation.StName) <br />
+                                <span class="descr">Дата отправления -</span> @Model.TimeDeparture.ToShortDateString() <br />
+                                <span class="descr">Время отправления -</span> @Model.TimeDeparture.ToShortTimeString()
+                            </td>
+                            <td style="padding-top: 35px;"><img src="~/Content/img/bus64.png" /></td>
+                            <td>
+                                @Model.Route.EndStation.City.CityName (@Model.Route.EndStation.StName) <br />
+                                <span class="descr">Дата прибытия -</span> @Model.TimeArrival.ToShortDateString() <br />
+                                <span class="descr">Время прибытия -</span> @Model.TimeArrival.ToShortTimeString()
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                @using (Html.BeginForm("FormBuyTicket", "Route", FormMethod.Post, new { @id = "form-post", @class = "form-inline", @style = "padding-bottom: 25px" }))
+                {
+                    <div class="col-md-1"></div>
+                        <div class="form-group">
+                            @Html.HiddenFor(m => m.RouteTimeId)
+                            <input type="hidden" class="form-control input-lg" name="Date" title="Date" value="@DateTime.Now" />
+                        </div>
+                        <div class="form-group">
+                      
+                                <label for="FullName">ФИО</label>
+                                <input type="text" class="form-control input-lg" name="FullName" title="ФИО" />
+                          
+                        </div>
+                        <div class="form-group">
+             
+                                <label for="Email">Email</label>
+                                <input type="text" class="form-control input-lg" name="Email" title="Email" />
+                         
+                        </div>
+                        <div class="form-group">
+         
+                                <button type="submit" class="btn btn-warning btn-lg">Купить билет</button>
+                        
+                        </div>
+                        }
+                    </div>
+        </div>
+    </div>
+    <div class="col-md-2"></div>

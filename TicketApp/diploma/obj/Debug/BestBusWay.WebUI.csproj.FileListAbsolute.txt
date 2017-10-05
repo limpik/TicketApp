@@ -1,0 +1,205 @@
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\ApplicationInsights.config
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\csc.exe
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\csc.exe.config
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\csc.rsp
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\csi.exe
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\csi.rsp
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\System.AppContext.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\System.Collections.Immutable.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\System.IO.FileSystem.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\vbc.exe
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\vbc.exe.config
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\vbc.rsp
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\VBCSCompiler.exe
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\roslyn\VBCSCompiler.exe.config
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\diploma.dll.config
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\diploma.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\diploma.pdb
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Antlr3.Runtime.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\BestBusWay.Domain.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Castle.Core.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AI.Web.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AI.WindowsServer.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.ApplicationInsights.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Web.Infrastructure.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Moq.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Newtonsoft.Json.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Ninject.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Ninject.Web.Common.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Ninject.Web.Mvc.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.Helpers.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.Mvc.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.Optimization.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.Razor.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.WebPages.Deployment.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.WebPages.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.WebPages.Razor.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\WebActivatorEx.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\WebGrease.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\BestBusWay.Domain.pdb
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Castle.Core.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Moq.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Ninject.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Ninject.Web.Common.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Ninject.Web.Mvc.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.Helpers.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.Mvc.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.Optimization.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.Razor.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.WebPages.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.WebPages.Deployment.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\System.Web.WebPages.Razor.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Antlr3.Runtime.pdb
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Newtonsoft.Json.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.ApplicationInsights.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AI.WindowsServer.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AI.Web.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\obj\Debug\BestBusWay.WebUI.csprojResolveAssemblyReference.cache
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\obj\Debug\diploma.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\obj\Debug\diploma.pdb
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\EntityFramework.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\EntityFramework.SqlServer.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\BestBusWay.Domain.dll.config
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\EntityFramework.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\EntityFramework.SqlServer.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Owin.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Owin.Security.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Owin.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Owin.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Owin.Security.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\diploma\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\ApplicationInsights.config
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\csc.exe
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\csc.exe.config
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\csc.rsp
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\csi.exe
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\csi.rsp
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\System.AppContext.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\vbc.exe
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\vbc.exe.config
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\vbc.rsp
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\VBCSCompiler.exe
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\diploma.dll.config
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\diploma.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\diploma.pdb
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Antlr3.Runtime.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\BestBusWay.Domain.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Castle.Core.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\EntityFramework.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\EntityFramework.SqlServer.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AI.Web.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Owin.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Owin.Security.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Moq.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Newtonsoft.Json.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Ninject.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Ninject.Web.Common.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Ninject.Web.Mvc.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Owin.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.Helpers.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.Mvc.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.Optimization.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.Razor.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.WebPages.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.WebPages.Razor.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\WebActivatorEx.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\WebGrease.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\BestBusWay.Domain.pdb
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\BestBusWay.Domain.dll.config
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Castle.Core.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\EntityFramework.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\EntityFramework.SqlServer.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Owin.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Owin.Security.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Moq.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Ninject.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Ninject.Web.Common.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Ninject.Web.Mvc.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.Helpers.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.Mvc.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.Optimization.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.Razor.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.WebPages.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\System.Web.WebPages.Razor.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Antlr3.Runtime.pdb
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Newtonsoft.Json.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\bin\Microsoft.AI.Web.xml
+C:\Users\DenisD\Desktop\TicketApp\diploma\obj\Debug\BestBusWay.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\DenisD\Desktop\TicketApp\diploma\obj\Debug\BestBusWay.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\DenisD\Desktop\TicketApp\diploma\obj\Debug\diploma.dll
+C:\Users\DenisD\Desktop\TicketApp\diploma\obj\Debug\diploma.pdb

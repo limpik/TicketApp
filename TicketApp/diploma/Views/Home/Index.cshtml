@@ -1,0 +1,75 @@
+﻿@model  IEnumerable<BestBusWay.Domain.Entities.Station>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<!-- Navigation -->
+
+@*<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="col-md-2"></div>
+             <a class="navbar-brand"  href="#">BBW</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Вход</a></li>
+                <li><a href="#">Регистрация</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>*@
+
+<!-- Intro Header-->
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+                <div class="site-heading">
+                    <h1>Best Bus Way</h1>
+                    <hr class="small" />
+                    <span class="subheading">Поиск доступных маршрутов</span>
+
+                  @using (Html.BeginForm("GetTicketByDate", "Route", FormMethod.Post, new { @id = "form-post", @class = "form-horizontal" }))
+                  {
+                    <div class="form-group">
+                        <div class="col-sm-4" style="padding-left: 0px; padding-right: 2px;">
+                            <select class="form-control input-lg" style="height: 60px;" id="StartStationId" name="StartStationId" data-toggle="tooltip" data-placement="top" title="Город отправления">
+                                @foreach (var station in Model)
+                                {
+                                    <option value="@station.StationId">@($"{station.City.CityName} - {station.StName}")</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="col-sm-4" style="padding-left: 0px; padding-right: 2px;">
+                            <select class="form-control input-lg" style="height: 60px;" id="EndStationId" name="EndStationId" data-toggle="tooltip" data-placement="top" title="Город прибытия">
+                                @foreach (var station in Model)
+                                {
+                                    <option value="@station.StationId">@($"{station.City.CityName} - {station.StName}")</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="col-sm-2" style="padding-left: 0px; padding-right: 2px;">
+                            <input type="date" id="TimeDeparture" name="TimeDeparture" class="form-control input-lg" data-toggle="tooltip" data-placement="bottom" title="Дата отправления" />
+                        </div>
+                        <div class="col-sm-2" style="padding-left: 0px; padding-right: 2px;">
+                            <button type="submit" class="btn btn-warning btn-lg">Найти маршрут</button>
+                        </div>
+                   </div>
+                  }
+                </div>
+            </div>
+        </div>
+</header>
+<!-- Header END-->
+
+                        

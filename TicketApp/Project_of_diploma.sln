@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestBusWay.WebUI", "diploma\BestBusWay.WebUI.csproj", "{2B577518-C36C-4A99-B8A1-468F26BFB9D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestBusWay.Domain", "BestBusWay.Domain\BestBusWay.Domain.csproj", "{EB3EDBE9-5B30-4323-A6D6-68AEE0CDB2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestBusWay.UnitTests", "BestBusWay.UnitTests\BestBusWay.UnitTests.csproj", "{76EC44B0-044B-416B-9C66-91923B63A554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B577518-C36C-4A99-B8A1-468F26BFB9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B577518-C36C-4A99-B8A1-468F26BFB9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B577518-C36C-4A99-B8A1-468F26BFB9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B577518-C36C-4A99-B8A1-468F26BFB9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3EDBE9-5B30-4323-A6D6-68AEE0CDB2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3EDBE9-5B30-4323-A6D6-68AEE0CDB2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3EDBE9-5B30-4323-A6D6-68AEE0CDB2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3EDBE9-5B30-4323-A6D6-68AEE0CDB2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EC44B0-044B-416B-9C66-91923B63A554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EC44B0-044B-416B-9C66-91923B63A554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EC44B0-044B-416B-9C66-91923B63A554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EC44B0-044B-416B-9C66-91923B63A554}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

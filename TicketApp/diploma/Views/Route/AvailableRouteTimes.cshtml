@@ -1,0 +1,126 @@
+﻿@model  IEnumerable<BestBusWay.Domain.Entities.RouteTime>
+
+@{
+    ViewBag.Title = "Доступные маршруты";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .table-into-avroute {
+        margin: 50px 25px;
+        border: 1px solid #DEDEDF;
+        border-radius: 7px;
+        background-color: #ffffff;
+    }
+
+    .available-route {
+        background-color: #FAFAFA;
+        margin-top: 125px;
+        font-family: 'Century Gothic';
+    }
+
+    h3 {
+        font-family: 'Century Gothic';
+        padding: 10px 0 0 0;
+    }
+
+    .navbar-avroutes {
+        background-color: #0A99D2;
+        min-height: 75px;
+    }
+
+    .table-avroutes > thead > tr > th,
+    .table-avroutes > tbody > tr > td {
+        padding: 25px 15px;
+        border-bottom: 1px solid #DEDEDF;
+        text-align: center;
+    }
+
+    .btn-buy-ticket {
+        padding: 12px 10px;
+        font-size: 18px;
+        background-color: #FAFAFA;
+        border: none;
+        box-shadow: 3px 2px 7px #C6C6C6;
+    }
+
+        .btn-buy-ticket:hover {
+            background-color: #ffffff;
+        }
+
+    .hr-line {
+        border-top: 1px solid #8c8b8b;
+        width: 25px;
+        margin: 5px auto;
+    }
+    .navbar-custom .navbar-brand {
+        color: white;
+        padding: 20px;
+        font-size: 24px;
+    }
+</style>
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top navbar-avroutes">
+    <div class="container-fluid">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <a class="navbar-brand" href="/Home/Index">BBW</a>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<div class="container-fluid available-route">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+
+            <h3 style="text-align: center;">
+                Доступные маршруты
+            </h3>
+            <div class="table-into-avroute">
+                <table class="table table-hover table-avroutes">
+                    <thead>
+                        <tr>
+                            <th>Маршрут</th>
+                            <th>Дата и время отправления</th>
+                            <th>Дата и время прибытия</th>
+                            <th>Стоимость</th>
+                            <th>Действия</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @item.Route.StartStation.City.CityName (@item.Route.StartStation.StName)<br />
+                                    <hr class="hr-line" />
+                                    @item.Route.EndStation.City.CityName (@item.Route.EndStation.StName)
+                                </td>
+                                <td>
+                                        @item.TimeDeparture.ToShortDateString()<br />
+                                        @item.TimeDeparture.ToShortTimeString()
+                                </td>
+                                <td>
+                                        @item.TimeArrival.ToShortDateString()<br />
+                                        @item.TimeArrival.ToShortTimeString()
+                                </td>
+                                <td>@item.Route.Price грн</td>
+                                <td>
+                                    @Html.Hidden("RouteTimeId")           
+                                        @Html.ActionLink("КУПИТЬ БИЛЕТ", "FormBuyTicket", new { item.RouteTimeId },
+                                         new { @class = "btn-buy-ticket" })
+                                    
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+

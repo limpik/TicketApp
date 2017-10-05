@@ -1,0 +1,45 @@
+﻿@model BestBusWay.Domain.Entities.City
+
+@{
+    ViewBag.Title = "Админ панель: редактирование города";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container"
+     <div class="row">
+        <div class="col-md-6 col-md-offset-3"
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3>Редактирование города: ID-@Model.CityId</h3>
+                </div>
+
+                @using (Html.BeginForm("Edit", "City", FormMethod.Post))
+                {
+                    <div class="panel-body">
+                        @Html.HiddenFor(m => m.CityId)
+                        @foreach (var property in ViewData.ModelMetadata.Properties)
+                        {
+                            if (property.PropertyName != "CityId" && property.PropertyName != "Stations")
+                            {
+                                <div class="form-group">
+                                    <label>@(property.DisplayName ?? property.PropertyName)</label>
+                                    @Html.TextBox(property.PropertyName, null, new { @class = "form-control input-lg" })
+                                    <!-- Messages about errors of validation -->
+                                    @Html.ValidationMessage(property.PropertyName)
+                                </div>
+                            }
+                        }
+                    </div> // </Panel body>
+                    <div class="panel-footer">
+                        <input type="submit" value="Сохранить" class="btn btn-primary btn-block btn-lg" />
+                        @Html.ActionLink("Отменить изменения и вернуться к списку", "Index", null, new
+                   {
+                       @class = "btn btn-default btn-block btn-lg"
+                   })
+                    </div>
+                }
+           </div> <!-- </Panel> -->
+        </div>
+    </div>
+</div>
+

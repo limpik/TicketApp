@@ -1,0 +1,3 @@
+﻿ALTER TABLE [Station]
+ADD CONSTRAINT FK_StationCityId
+FOREIGN KEY (CityId) REFERENCES City(CityId);

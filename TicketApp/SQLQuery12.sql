@@ -1,0 +1,14 @@
+﻿ALTER TABLE [Orders]
+ADD CONSTRAINT FK_UsersUserId1
+FOREIGN KEY (UserId) REFERENCES Users(UserId);
+
+--ALTER TABLE [Orders] 
+--ADD UserId INT NOT NULL DEFAULT '0';
+
+--ALTER TABLE [Users]
+--DROP CONSTRAINT FK_UsersUserId;
+
+--ALTER TABLE [Orders]
+--DROP COLUMN UserId;
+
+

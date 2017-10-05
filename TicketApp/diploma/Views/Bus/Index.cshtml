@@ -1,0 +1,45 @@
+﻿@model  IEnumerable<BestBusWay.Domain.Entities.Bus>
+
+@{
+    ViewBag.Title = "Админ панель: список автобусов";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Список автобусов</h3>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-condensed table-bordered">
+            <tr>
+                <th class="text-right">ID</th>
+                <th class="text-right">Название</th>
+                <th class="text-right">Количество мест</th>
+                <th class="text-center">Действия</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-right">@Html.ActionLink(Convert.ToString(item.BusId), "Edit", new { item.BusId })</td>
+                    <td class="text-right">@item.Name</td>
+                    <td class="text-right">@item.AmountPlaces</td>
+                    <td class="text-center">
+
+                        @using (Html.BeginForm("Delete", "Bus"))
+                        {
+                            @Html.Hidden("BusId", item.BusId)
+                            <input type="submit"
+                                   class="btn btn-default btn-sm"
+                                   value="Удалить" />
+                        }
+
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="panel-footer">
+        @Html.ActionLink("Добавить автобус", "Create", null,
+            new { @class = "btn btn-default" })
+    </div>
+</div>

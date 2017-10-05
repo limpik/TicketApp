@@ -1,0 +1,74 @@
+﻿@model BestBusWay.Domain.Entities.Route
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container"
+     <div class="row">
+        <div class="col-md-6 col-md-offset-3"
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3>Редактирование станции: ID-@Model.RouteId</h3>
+                </div>
+
+                @using (Html.BeginForm("Edit", "Route", FormMethod.Post, new { @id = "form-post" }))
+                {
+                    <div class="panel-body">
+                        @Html.HiddenFor(m => m.RouteId)
+                       @foreach (var property in ViewData.ModelMetadata.Properties)
+                       {
+                           if (property.PropertyName != "RouteId")
+                           {
+                               if (property.PropertyName == "BusId")
+                               {
+                                <div class="form-group">
+                                    <label>@(property.DisplayName ?? property.PropertyName)</label>
+                                    @Html.DropDownList("BusId", ViewBag.Buses as SelectList, new { @class = "form-control input-lg" })
+                                    @Html.ValidationMessage(property.PropertyName)
+                                </div>
+                               }
+                               else if (property.PropertyName == "StartStationId")
+                               {
+                                <div class="form-group">
+                                    <label>@(property.DisplayName ?? property.PropertyName)</label>
+                                    @Html.DropDownList("StartStationId", ViewBag.StartStations as SelectList, new { @class = "form-control input-lg" })
+                                    @Html.ValidationMessage(property.PropertyName)
+                                </div>
+                               }
+                               else if (property.PropertyName == "EndStationId")
+                               {
+                                <div class="form-group">
+                                    <label>@(property.DisplayName ?? property.PropertyName)</label>
+                                    @Html.DropDownList("EndStationId", ViewBag.EndStations as SelectList, new { @class = "form-control input-lg" })
+                                    @Html.ValidationMessage(property.PropertyName)
+                                </div>
+                               }
+                               else if (property.PropertyName == "Price")
+                               {
+                                <div class="form-group">
+                                    <label>@(property.DisplayName ?? property.PropertyName)</label>
+                                    @Html.TextBox(property.PropertyName, null, new { @class = "form-control input-lg" })
+                                    @Html.ValidationMessage(property.PropertyName)
+                                </div>
+                               }
+                           }
+                       }
+                        
+                    </div> // </Panel body>
+                    <div class="panel-footer">
+
+                        <input type="submit" value="Сохранить" class="btn btn-primary btn-block btn-lg" />
+                        @Html.ActionLink("Отменить изменения и вернуться к списку", "Index", null, new
+                   {
+                       @class = "btn btn-default btn-block btn-lg"
+                   })
+
+                    </div>
+                }
+           </div> <!-- </Panel> -->
+        </div>
+    </div>
+</div>
+

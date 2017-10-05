@@ -1,0 +1,95 @@
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\BestBusWay.Domain.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\BestBusWay.Domain.pdb
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.Helpers.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.Mvc.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.Razor.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.WebPages.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.Helpers.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.Mvc.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.Razor.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.WebPages.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.dll
+c:\users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.pdb
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\BestBusWay.Domain.dll.config
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\EntityFramework.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\EntityFramework.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Owin.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Owin.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Owin.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.Migrations.InitialCreate.resources
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.csproj.GenerateResource.Cache
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.Migrations.SampleMigrations.resources
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.csprojResolveAssemblyReference.cache
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\itextsharp.dll
+C:\Users\limpi\documents\visual studio 2017\Projects\Project_of_diploma\BestBusWay.Domain\bin\Debug\RazorPDF.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\BestBusWay.Domain.dll.config
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\BestBusWay.Domain.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\BestBusWay.Domain.pdb
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\EntityFramework.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\itextsharp.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Owin.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Owin.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\RazorPDF.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\EntityFramework.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Owin.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.csprojResolveAssemblyReference.cache
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.Migrations.InitialCreate.resources
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.Migrations.SampleMigrations.resources
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.csproj.GenerateResource.Cache
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.dll
+C:\Users\DenisD\Desktop\TicketApp\BestBusWay.Domain\obj\Debug\BestBusWay.Domain.pdb

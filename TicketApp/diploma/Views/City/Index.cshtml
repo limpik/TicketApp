@@ -1,0 +1,45 @@
+﻿@model IEnumerable<BestBusWay.Domain.Entities.City>
+
+@{
+    ViewBag.Title = "Админ панель: список городов";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Список городов</h3>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-condensed table-bordered">
+            <tr>
+                <th class="text-right">ID</th>
+                <th class="text-right">Город</th>
+                <th class="text-right">Страна</th>
+                <th class="text-center">Действия</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-right">@Html.ActionLink(Convert.ToString(item.CityId), "Edit", new { item.CityId })</td>
+                    <td class="text-right">@item.CityName</td>
+                    <td class="text-right">@item.CountryName</td>
+                    <td class="text-center">
+
+                        @using (Html.BeginForm("Delete", "City"))
+                        {
+                            @Html.Hidden("CityId", item.CityId)
+                            <input type="submit"
+                                   class="btn btn-default btn-sm"
+                                   value="Удалить" />
+                        }
+
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="panel-footer">
+        @Html.ActionLink("Добавить город", "Create", null,
+            new { @class = "btn btn-default" })
+    </div>
+</div>

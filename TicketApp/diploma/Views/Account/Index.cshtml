@@ -1,0 +1,39 @@
+﻿@using System.Collections.Generic
+ 
+@model Dictionary<string, object>
+@{
+    ViewBag.Title = "Админ панель";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .account-page
+    {
+        margin-top: 25px;
+    }
+</style>
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Данные пользователей системы</div>
+                    <table class="table table-striped">
+                        @foreach (string key in Model.Keys)
+                        {
+                            <tr>
+                                <td>@key</td>
+                                <td>@Model[key]</td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+           
+        </div>
+    </div>
+
+</div>
+
