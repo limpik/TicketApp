@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="sample.css"?>
+<reestr>
+<service>
+  <text>Id:  </text><id>1;</id>
+  <text>Name:  </text><name>Сортировка по цене;</name>
+  <text>Version:  </text><version>1.0;</version>
+  <text>Description:  </text><description>Сортирует товары с БД по убыванию или возростанию цены;</description>
+  <text>Adress:  </text><adress>kingartst.ua/services/sorting.php;</adress>
+  <text>Author:  </text><author>;</author>
+</service>
+
+<service>
+   <text>Id:  </text><id>2;</id>
+  <text>Name:  </text><name>Вывод товара;</name>
+   <text>Version:  </text><version>1.0;</version>
+   <text>Description:  </text><description>Выводит товаров из БД.;</description>
+  <text>Adress:  </text> <adress>kingartst.ua/services/tovar.php;</adress>
+ <text>Author:  </text> <author>;</author>
+</service>
+
+<service>
+  <text>Id:  </text><id>3;</id>
+   <text>Name:  </text><name>Mail;</name>
+  <text>Version:  </text> <version>1.0;</version>
+  <text>Description:  </text> <description>Отправляет заявки пользователей на электронную почту компании;</description>
+ <text>Adress:  </text> <adress>kingartst.ua/services/mail.php;</adress>
+ <text>Author:  </text> <author>;</author>
+</service>
+
+<service>
+ <text>Id:  </text>             <id>4;</id>
+  <text>Name:  </text>   <name>Загрузка фотографий;</name>
+  <text>Version:  </text><version>1.0;</version>
+  <text>Description:  </text> <description>Производит загрузку фото в БД;</description>
+ <text>Adress:  </text> <adress>kingartst.ua/services/upload-image.php;</adress>
+ <text>Author:  </text> <author>;</author>
+</service>
+</reestr>
