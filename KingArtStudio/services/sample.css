@@ -1,8 +1,0 @@
-text {
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 15px;
-	font-weight: bold;
-}
-
-service {display:block;}
-id,name,version,description,adress,author {font-style:italic;}
